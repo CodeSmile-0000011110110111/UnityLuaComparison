@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>MoonSharp</id>
+        <version>2.0.0.0</version>
+        <title>MoonSharp scripting engine (Lua interpreter)</title>
+        <authors>Marco.Mastropaolo</authors>
+        <licenseUrl>https://github.com/xanathar/moonsharp/blob/master/LICENSE</licenseUrl>
+        <projectUrl>http://www.moonsharp.org/</projectUrl>
+        <iconUrl>http://www.moonsharp.org/logos/moonsharp_nuget.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>A Lua interpreter written entirely in C# for the .NET, Mono, Xamarin and Unity3D platforms.</description>
+        <summary />
+        <releaseNotes>See http://www.moonsharp.org/changelog.html</releaseNotes>
+        <copyright>(c) 2014-2016, Marco Mastropaolo</copyright>
+        <language />
+        <tags>Lua Script Scripting</tags>
+    </metadata>
+</package>
