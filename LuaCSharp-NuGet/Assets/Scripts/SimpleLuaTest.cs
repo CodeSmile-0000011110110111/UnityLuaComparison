@@ -1,4 +1,5 @@
 using Lua;
+using Lua.Runtime;
 using System;
 using UnityEditor;
 using UnityEngine;
@@ -26,7 +27,7 @@ public class SimpleLuaTest : MonoBehaviour
 		{
 			var func = m_LuaState.Environment[LuaFunctionName];
 			var luaFunction = func.Read<LuaFunction>();
-			luaFunction.InvokeAsync(m_LuaState, null);
+			m_LuaState.TopLevelAccess.RunAsync(luaFunction);
 		}
 	}
 
